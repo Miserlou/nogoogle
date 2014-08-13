@@ -39,7 +39,14 @@ Configure nogoogle:
 
 ### Windows
 
-    I don't know. Maybe this as an alternative? http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome
+dnsmasq doesn't work on Windows. I don't know. Maybe this as an alternative? http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome
+
+### Android
+
+dnsmasq does work for Android, but I haven't investigated how to get **nogoogle** running yet. This might work, but I haven't tested it:
+
+     sudo cp dnsmasq.conf /data/dnsmasq.conf
+     dnsmasq -C /data/dnsmasq.conf
 
 ### Others
 
