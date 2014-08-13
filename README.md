@@ -1,3 +1,4 @@
+![nogoogle logo](http://i.imgur.com/Hd8W5Dw.png)
 # nogoogle
 
 A simple way of removing Google from your life.
