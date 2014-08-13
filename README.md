@@ -15,7 +15,7 @@ Install dnsmasq:
 
     brew install dnsmasq
 
-Configure nogoogle:
+Configure **nogoogle**:
 
     cp dnsmasq.conf /usr/local/etc/dnsmasq.conf
 
@@ -33,13 +33,9 @@ Install dnsmasq:
 
     sudo apt-get install dnsmasq
 
-Configure nogoogle:
+Configure **nogoogle**:
 
     sudo cp dnsmasq.conf /etc/dnsmasq.conf
-
-### Windows
-
-dnsmasq doesn't work on Windows. I don't know. Maybe this as an alternative? http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome
 
 ### Android
 
@@ -48,6 +44,10 @@ dnsmasq does work for Android, but I haven't investigated how to get **nogoogle*
      sudo cp dnsmasq.conf /data/dnsmasq.conf
      dnsmasq -C /data/dnsmasq.conf
 
+### Windows
+
+dnsmasq doesn't work on Windows. I don't know. Maybe this as an alternative? http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome
+
 ### Others
 
-    Install dnsmaqs with your package manager of choice, or from source.
+Install dnsmaqs with your package manager of choice, or from source, then add **nogoogle**'s configuration into your dnsmasq.conf. If you're using some crazy operating system, you probably already know how to do this.
