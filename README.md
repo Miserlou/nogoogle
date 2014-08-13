@@ -10,15 +10,19 @@ Don't use this yet.
 ### OSX
 
 Install:
+
     brew install dnsmasq
 
 Configure:
+
     cp dnsmasq.conf /usr/local/etc/dnsmasq.conf
 
 Start at Boot:
+
     sudo cp -fv /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
 
 Start now:
+
     sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
 
 ### Ubuntu
