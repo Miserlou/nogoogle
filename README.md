@@ -3,21 +3,23 @@
 
 A simple way of removing Google from your life.
 
+**nogoogle** uses dnsmasq to black-hole all known Google domains. 
+
 ## Notes
 
 Don't use this yet.
 
 ### OSX
 
-Install:
+Install dnsmasq:
 
     brew install dnsmasq
 
-Configure:
+Configure nogoogle:
 
     cp dnsmasq.conf /usr/local/etc/dnsmasq.conf
 
-Start at Boot:
+Start at boot:
 
     sudo cp -fv /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
 
@@ -27,7 +29,13 @@ Start now:
 
 ### Ubuntu
 
-    apt-get install dnsmasq
+Install dnsmasq:
+
+    sudo apt-get install dnsmasq
+
+Configure nogoogle:
+
+    sudo cp dnsmasq.conf /etc/dnsmasq.conf
 
 ### Windows
 
